@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-image: url(http://www.voxmusicstudio.com.br/wp-content/uploads/2019/10/plat%C3%A9ia.jpg);
+    background-image: url("./image/platéia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
