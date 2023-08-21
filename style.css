@@ -1,194 +1,123 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-image: url("./image/platéia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-ul{
-    height: 10rem;
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 
-.topnav{
+header h1 {
+    color: #999;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header div h2 {
+    color: #555;
+    text-align: center;
+}
+
+header div {
+    padding: 30px 100px;
+    border-radius: 10px;
+    background-color: #080808;
+    animation-name: tranz;
+    position: relative;
+    animation-duration: 1.5s;
+}
+
+.topnav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #000000;
     padding: 10px 20px;
-    
 }
-.topnav a{
+
+.topnav a {
     color: #f1f1f1;
     text-decoration: none;
     font-size: 20px;
     padding: 10px 25px 10px 25px;
     border-radius: 4px;
 }
-.box{
+
+.box {
     padding-right: 90px;
 }
 
-.topnav a:hover{
+.topnav a:hover {
     background-color: #f1f1f1;
     color: #000000;
 }
 
-.chester{
+.chester {
     display: flex;
     justify-content: center;
     padding: 50px 0px 50px 0px;
 }
-.box2{
+
+.box2 {
     display: flex;
     background-color: #080808;
     padding: 20px;
     padding-right: 250px;
     border-radius: 10px;
 }
-img{
+
+img {
     border-radius: 10px;
 }
-.albuns{
-    display: flex;
-    justify-content: center;
-    margin-left: 25rem;
-    position: relative;
-    animation-name: albuns;
-    animation-fill-mode: forwards;
-}
-@keyframes albuns {
-    from {
-        top: 0px;
-    }
 
-    to {
-        top: -430px;
-    }
+.albuns div {
+    position: absolute;
 }
 
+.albuns div:hover {
+    transition-duration: 0.5s;
+}
+
+
+.sla1:hover {
+    bottom: 280px;
+}
+
+.sla2:hover {
+    bottom: 220px;
+}
+
+.sla3:hover {
+    bottom: 160px;
+}
+
+.sla4:hover {
+    bottom: 100px;
+}
 
 
 .sla1 {
-    display: flex;
-    width: 200px;
-    height: 200px;
-    position: relative;
+    bottom: 230px;
 }
-.sla1:hover{
-    position: relative;
-    animation-name: ex1;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-}
-@keyframes ex1 {
-    from {
-        top: 0px;
-    }
 
-    to {
-        top: -100px;
-    }
-}
 .sla2 {
-    display: flex;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    animation-name: example2;
-    animation-fill-mode: forwards;
+    bottom: 170px;
 }
-@keyframes example2 {
-    from {
-        top: 0px;
-    }
 
-    to {
-        top: -150px;
-    }
-}
-.sla2:hover{
-    position: relative;
-    animation-name: ex2;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-}
-@keyframes ex2 {
-    from {
-        top: -150px;
-    }
-
-    to {
-        top: -250px;
-    }
-}
 .sla3 {
-    display: flex;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    animation-name: example3;
-    animation-fill-mode: forwards;
+    bottom: 110px;
 }
-@keyframes example3 {
-    from {
-        top: 0px;
-    }
 
-    to {
-        top: -300px;
-    }
-}
-.sla3:hover{
-    position: relative;
-    animation-name: ex3;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-}
-@keyframes ex3 {
-    from {
-        top: -300px;
-    }
-
-    to {
-        top: -400px;
-    }
-}
 .sla4 {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    animation-name: example4;
-    animation-fill-mode: forwards;
+    bottom: 50px;
 }
-@keyframes example4 {
-    from {
-        top: 0px;
-    }
-
-    to {
-        top: -450px;
-    }
-}
-.sla4:hover{
-    position: relative;
-    animation-name: ex4;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-}
-@keyframes ex4 {
-    from {
-        top: -450px;
-    }
-
-    to {
-        top: -500px;
-    }
-}
-
-
 footer{
-    color: aliceblue;
+    color: #f1f1f1;
 }
-
